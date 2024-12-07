@@ -3,6 +3,7 @@
 int main()
 {
     setlocale(LC_ALL, "Rus");
+    srand(time(NULL));
 
     DoublyLinkedList list;
 
